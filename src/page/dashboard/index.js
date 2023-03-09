@@ -10,7 +10,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-
+import Statistics from '../../components/Statistics'
 import Layout from '../../components/Layout';
 import { Link } from '@material-ui/core';
 
@@ -109,6 +109,10 @@ export default function DashboardPage() {
          
      
         </Grid>
+   
+        <div style={{maxWidth:600 ,margin:"auto"}}>
+        <Statistics/>
+        </div>
         < AreaRechartComponent/>
    
         <TableCustom/>

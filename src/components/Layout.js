@@ -19,6 +19,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 import VerticalSplitIcon from '@mui/icons-material/VerticalSplit';
 import WysiwygIcon from '@mui/icons-material/Wysiwyg';
 import AccountMenu from './AccountMenu';
+import SearchInput from './SearchInput'
+
 
 const drawerWidth = 240;
 
@@ -86,7 +88,7 @@ export default function Layout({ children }) {
         // onClick={handleDrawerToggle}
         className={classes.menuButton}
       >
-           
+                <SearchInput/>
        <NotificationsActiveIcon/>
        <AccountMenu/>
         </IconButton>
