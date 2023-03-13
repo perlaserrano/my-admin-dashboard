@@ -32,7 +32,7 @@ function SearchInput() {
         onChange={handleSearchChange}
         InputProps={{
           startAdornment: (
-            <InputAdornment position="start" style={{}}>
+            <InputAdornment position="start">
               <SearchIcon />
             </InputAdornment>
           ),

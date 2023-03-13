@@ -20,8 +20,14 @@ import VerticalSplitIcon from '@mui/icons-material/VerticalSplit';
 import WysiwygIcon from '@mui/icons-material/Wysiwyg';
 import AccountMenu from './AccountMenu';
 import SearchInput from './SearchInput'
+import { Link } from 'react-router-dom';
 
 
+// function changeRoute(url) {
+//   if (window.location.href !== url) {
+//     window.location.replace(url);
+//   }
+// }
 const drawerWidth = 240;
 
 const useStyles = makeStyles((theme) => ({
@@ -76,10 +82,10 @@ export default function Layout({ children }) {
           >
            <MenuIcon />
           </IconButton>
-          <Typography variant="h6"  >
+          {/* <Typography variant="h6"  >
          
          Dashboard
-          </Typography>
+          </Typography> */}
         <IconButton 
         style={{display:"contents",justifyContent:"flex-end"}}
         color="inherit"
@@ -154,7 +160,16 @@ export default function Layout({ children }) {
       <main className={classes.content}>
         <Toolbar />
         {children}
+        
+      <div className="footer">
+          
+          <footer>
+            <span>Copyrigth  © <Link>Perla Serrano Website</Link> 2023.</span>
+          </footer>
+        </div>
+
       </main>
+
     </div>
   );
 }

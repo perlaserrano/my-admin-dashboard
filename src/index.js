@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './assets/css/dashboard.css';
+import './assets/css/profile.css'
 import  Routes  from './routes/Routes';
 
 

@@ -117,13 +117,6 @@ export default function DashboardPage() {
    
         <TableCustom/>
 
-        <div className="footer">
-          
-          <footer>
-            <span>Copyrigth  © <Link>Perla Serrano Website</Link> 2023.</span>
-          </footer>
-        </div>
-
       </Grid>
     </div>
     </Layout>

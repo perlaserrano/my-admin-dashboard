@@ -1,0 +1,11 @@
+
+.button-profile{
+    display: flex;
+    justify-content: end;
+    margin-top: -2rem;
+}
+
+.text-profile{
+    margin-top: 11rem;
+    margin-left: -8rem;
+}
